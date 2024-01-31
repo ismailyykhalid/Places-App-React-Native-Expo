@@ -20,7 +20,7 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff",
         "package": "com.ismailkhalid.findplaces",
-        "googleMapsApiKey": "AIzaSyBIl7EQfuEBgUcPza63SbXLcZFJ9UupKUo"
+        "googleMapsApiKey": "AIzaSyB3FZzZ82f5U_2z2CzD5quNGcCupNUaY1o"
       }
     },
     "web": {

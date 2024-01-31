@@ -6,17 +6,17 @@ import {
   widthPercentageToDP as wp,
   heightPercentageToDP as hp,
 } from "react-native-responsive-screen";
-import { UserLocationContext } from "../../Context/UserLocationContext";
+import { UserLocationContext } from "../../../Context/UserLocationContext";
 
 export default function GoogleMaps() {
   const { location } = useContext(UserLocationContext);
-  console.log(location);
   const [mapRegion, setMapRegion] = useState({
-    latitude: location.coords.latitude,
-    longitude: location.coords.longitude,
-    latitudeDelta: 0.044,
-    longitudeDelta: 0.055,
+    // latitude: location.coords.latitude,
+    // longitude: location.coords.longitude,
+    // latitudeDelta: 0.044,
+    // longitudeDelta: 0.055,
   });
+
   return (
     <View>
       <Text className="font-semibold  m-3 text-lg">Top Near By Places</Text>
